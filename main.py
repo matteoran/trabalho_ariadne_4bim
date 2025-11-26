@@ -86,3 +86,4 @@ while True:
     elif escolha == 5:
         print("\nSistema encerrado. Dados salvos.")
         break
+
