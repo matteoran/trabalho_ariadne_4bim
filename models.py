@@ -76,4 +76,5 @@ def criar_tarefa(titulo, projeto_id, responsavel_id, status, data_prazo, lista_t
         "status": status.lower(),
         "prazo": data_prazo
     }
+
     return tarefa, "Tarefa criada com sucesso!"
