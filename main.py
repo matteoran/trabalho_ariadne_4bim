@@ -87,3 +87,5 @@ while True:
         print("\nSistema encerrado. Dados salvos.")
         break
 
+
+
