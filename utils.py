@@ -3,11 +3,11 @@ import re
 
 def validar_email(email, lista_usuarios):
     if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
-        return False, "Formato de e-mail inválido."
+        return False, "Formato de email inválido."
     
     for usuario in lista_usuarios:
         if usuario.get("email", "").lower() == email.lower():
-            return False, "E-mail já cadastrado."
+            return False, "Email já cadastrado"
     
     return True, ""
 
@@ -17,18 +17,18 @@ def validar_periodo(data_inicio, data_fim):
         fim = datetime.strptime(data_fim, "%Y-%m-%d")
         
         if inicio > fim:
-            return False, "Data de início deve ser menor ou igual à data de fim."
+            return False, "Data de início deve ser menor ou igual à data de fim"
         
         return True, ""
     except ValueError:
-        return False, "Formato de data inválido. Use YYYY-MM-DD."
+        return False, "Formato de data inválido. Use YYYY-MM-DD"
 
 def validar_data(data_str):
     try:
         datetime.strptime(data_str, "%Y-%m-%d")
         return True, ""
     except ValueError:
-        return False, "Formato de data inválido. Use YYYY-MM-DD."
+        return False, "Formato de data inválido. Use YYYY-MM-DD"
 
 def gerar_novo_id(prefixo, lista):
     maior_num = 0
