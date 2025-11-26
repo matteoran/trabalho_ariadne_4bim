@@ -108,4 +108,5 @@ def menu_relatorios(tarefas, projetos, usuarios):
             else:
                 print("\nOpção inválida.")
         except ValueError:
+
             print("\nEntrada inválida. Digite o número da opção desejada.")
