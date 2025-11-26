@@ -1,1 +1,1 @@
-Ian Calev, Lucas Tadeu, Raul Chaves
+Ian Calev, Lucas Tadeu, Raul de Freitas Chaves
