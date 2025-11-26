@@ -5,7 +5,7 @@ from services import cadastrar, listar, buscar, atualizar, remover
 from reports import menu_relatorios
 
 
-# ------------------------------------------------------------------ #
+# .------------------------------------------------------------------ #
 #  CONSTANTES DE ARQUIVO
 # ------------------------------------------------------------------ #
 USUARIOS_ARQUIVO = "data/usuarios.json"
@@ -86,4 +86,5 @@ while True:
     elif escolha == 5:
         print("\nSistema encerrado. Dados salvos.")
         break
+
 
