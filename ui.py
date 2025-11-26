@@ -26,4 +26,5 @@ def selecionar_3():
                 return y
             raise ValueError
         except ValueError:
+
             print("\nOpção inválida. Digite um número de 1 a 4.")
