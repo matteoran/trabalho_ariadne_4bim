@@ -44,4 +44,5 @@ def gerar_novo_id(prefixo, lista):
                 pass 
     
     novo_num = maior_num + 1
+
     return f"{prefixo}_{novo_num:03d}"
