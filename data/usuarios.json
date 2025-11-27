@@ -10,5 +10,11 @@
         "nome": "lucas",
         "email": "lucastadeu@gmail.com",
         "perfil": "membro"
+    },
+    {
+        "id": "u_003",
+        "nome": "Raul",
+        "email": "raulchaves@gmail.com",
+        "perfil": "membro"
     }
 ]
