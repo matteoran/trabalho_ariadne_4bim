@@ -4,5 +4,11 @@
         "nome": "ian",
         "email": "calev.oran@yahoo.com",
         "perfil": "admin"
+    },
+    {
+        "id": "u_002",
+        "nome": "lucas",
+        "email": "lucastadeu@gmail.com",
+        "perfil": "membro"
     }
 ]
