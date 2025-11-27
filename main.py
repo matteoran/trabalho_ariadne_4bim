@@ -81,11 +81,12 @@ while True:
         processar_entidade(3, tarefas, TAREFAS_ARQUIVO)
 
     elif escolha == 4:  # Relatórios
-        menu_relatorios(tarefas, projetos, usuarios)
+        menu_relatorios(tarefas,projetos, usuarios)
 
     elif escolha == 5:
         print("\nSistema encerrado. Dados salvos.")
         break
+
 
 
 
